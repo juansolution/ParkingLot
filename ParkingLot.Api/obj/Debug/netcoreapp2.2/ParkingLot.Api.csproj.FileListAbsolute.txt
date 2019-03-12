@@ -1,0 +1,14 @@
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Api.deps.json
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Api.runtimeconfig.json
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Api.runtimeconfig.dev.json
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Api.dll
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Api.pdb
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.csprojAssemblyReference.cache
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.csproj.CoreCompileInputs.cache
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.RazorAssemblyInfo.cache
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.RazorAssemblyInfo.cs
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.AssemblyInfoInputs.cache
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.AssemblyInfo.cs
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.RazorTargetAssemblyInfo.cache
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.dll
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.pdb
