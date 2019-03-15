@@ -11,6 +11,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using ParkingLot.Api.Interface;
+using ParkingLot.Api.Repository;
+
+
 
 namespace ParkingLot.Api
 {
@@ -31,6 +35,11 @@ namespace ParkingLot.Api
 {
     c.SwaggerDoc("v1", new Info { Title = "Api ParkingLot", Version = "v1" });
 });
+
+            services.AddScoped<IUsuarios, UsuariosRepository>();
+
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +63,11 @@ namespace ParkingLot.Api
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "NetCore API");
                 c.RoutePrefix = string.Empty;
             });
+
+
+            
+            
+
 
         }
     }

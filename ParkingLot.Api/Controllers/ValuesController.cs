@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using ParkingLot.Api.Interface;
 
 namespace ParkingLot.Api.Controllers
 {
@@ -10,6 +11,13 @@ namespace ParkingLot.Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+
+
+        public ValuesController(IUsuarios IUsuarios )
+        {
+
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
