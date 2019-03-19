@@ -11,26 +11,44 @@ namespace ParkingLot.Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        public IUsuarios iUsuarios { get; private set; }
 
-
-        public ValuesController(IUsuarios IUsuarios )
+        public ValuesController(IUsuarios iUsuarios )
         {
-
+            this.iUsuarios = iUsuarios;
         }
 
         // GET api/values
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        //[HttpGet]
+        //public ActionResult<IEnumerable<string>> Get()
+        //{
 
-        // GET api/values/5
+
+
+        //    return new string[] { "value1", "value2" };
+
+
+        //}
+
+        //[HttpGet]
+        //public ActionResult<string> Get(int id)
+        //{
+        //    return  Ok(iUsuarios.GetUsuario) ;
+        //}
+
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return iUsuarios.GetUsuario("Juan");
         }
+
+
+        //// GET api/values/5
+        //[HttpGet("{id}")]
+        //public ActionResult<string> Get(int id)
+        //{
+        //    return Ok(iUsuarios.GetUsuario("Juan"));
+        //}
 
         // POST api/values
         [HttpPost]

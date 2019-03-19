@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ParqueaderosSitios</name>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Cubriseal</name>
+      <address>Cubriseal Calle 80B - 04</address>
+      <description><![CDATA[Direccion: Calle 80B - 04<br>Ciudad: Medellin<br>Longitud: <br>Latitud: ]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Direccion">
+          <value>Calle 80B - 04</value>
+        </Data>
+        <Data name="Ciudad">
+          <value>Medellin</value>
+        </Data>
+        <Data name="Longitud">
+          <value/>
+        </Data>
+        <Data name="Latitud">
+          <value/>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Aventura Centro Comercial </name>
+      <address>Aventura Centro Comercial</address>
+      <description><![CDATA[Direccion: <br>Ciudad: Medellin<br>Longitud: <br>Latitud: ]]></description>
+      <styleUrl>#icon-1899-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Direccion">
+          <value/>
+        </Data>
+        <Data name="Ciudad">
+          <value>Medellin</value>
+        </Data>
+        <Data name="Longitud">
+          <value/>
+        </Data>
+        <Data name="Latitud">
+          <value/>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+  </Document>
+</kml>
