@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ParkingLot.Api.Interface;
+using ParkingLot.Core.Interface;
 
-namespace ParkingLot.Api.Repository
+namespace ParkingLot.Infrastructure.Repository
 {
     public class UsuariosRepository : IUsuarios
     {

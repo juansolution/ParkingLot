@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 
-namespace ParkingLot.Api.Interface
+
+namespace ParkingLot.Core.Interface
 {
     public interface IUsuarios
     {

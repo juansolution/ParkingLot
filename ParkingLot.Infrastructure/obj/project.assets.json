@@ -207,6 +207,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "ParkingLot.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/ParkingLot.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ParkingLot.Core.dll": {}
+        }
       }
     }
   },
@@ -680,11 +690,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "ParkingLot.Core/1.0.0": {
+      "type": "project",
+      "path": "../ParkingLot.Core/ParkingLot.Core.csproj",
+      "msbuildProject": "../ParkingLot.Core/ParkingLot.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "ParkingLot.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -716,7 +732,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Temp\\ParkingLot\\ParkingLot.Core\\ParkingLot.Core.csproj": {
+              "projectPath": "E:\\Temp\\ParkingLot\\ParkingLot.Core\\ParkingLot.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

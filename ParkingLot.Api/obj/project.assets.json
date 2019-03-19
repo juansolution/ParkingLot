@@ -4495,6 +4495,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "ParkingLot.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/ParkingLot.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ParkingLot.Core.dll": {}
+        }
+      },
+      "ParkingLot.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "ParkingLot.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ParkingLot.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ParkingLot.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -12173,6 +12196,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "ParkingLot.Core/1.0.0": {
+      "type": "project",
+      "path": "../ParkingLot.Core/ParkingLot.Core.csproj",
+      "msbuildProject": "../ParkingLot.Core/ParkingLot.Core.csproj"
+    },
+    "ParkingLot.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ParkingLot.Infrastructure/ParkingLot.Infrastructure.csproj",
+      "msbuildProject": "../ParkingLot.Infrastructure/ParkingLot.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12180,6 +12213,8 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
+      "ParkingLot.Core >= 1.0.0",
+      "ParkingLot.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 4.0.1"
     ]
   },
@@ -12212,7 +12247,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Temp\\ParkingLot\\ParkingLot.Core\\ParkingLot.Core.csproj": {
+              "projectPath": "E:\\Temp\\ParkingLot\\ParkingLot.Core\\ParkingLot.Core.csproj"
+            },
+            "E:\\Temp\\ParkingLot\\ParkingLot.Infrastructure\\ParkingLot.Infrastructure.csproj": {
+              "projectPath": "E:\\Temp\\ParkingLot\\ParkingLot.Infrastructure\\ParkingLot.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

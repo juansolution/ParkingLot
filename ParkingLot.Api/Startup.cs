@@ -11,8 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
-using ParkingLot.Api.Interface;
-using ParkingLot.Api.Repository;
+using ParkingLot.Core.Interface;
+using ParkingLot.Infrastructure.Repository;
 
 
 
