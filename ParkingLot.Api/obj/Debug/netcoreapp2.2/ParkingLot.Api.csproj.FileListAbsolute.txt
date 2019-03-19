@@ -12,3 +12,8 @@ E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.Assembl
 E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.RazorTargetAssemblyInfo.cache
 E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.dll
 E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.pdb
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Core.dll
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Infrastructure.dll
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Core.pdb
+E:\Temp\ParkingLot\ParkingLot.Api\bin\Debug\netcoreapp2.2\ParkingLot.Infrastructure.pdb
+E:\Temp\ParkingLot\ParkingLot.Api\obj\Debug\netcoreapp2.2\ParkingLot.Api.csproj.CopyComplete

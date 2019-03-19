@@ -25,6 +25,13 @@ namespace ParkingLot.Infrastructure.Repository
         }
 
 
+        //async Task GerParkingMap() {
+
+
+        //    return 
+        //}
+
+
 
     }
 }

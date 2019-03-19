@@ -1,0 +1,9 @@
+E:\Temp\ParkingLot\ParkingLot.Core\bin\Debug\netcoreapp2.2\ParkingLot.Core.deps.json
+E:\Temp\ParkingLot\ParkingLot.Core\bin\Debug\netcoreapp2.2\ParkingLot.Core.dll
+E:\Temp\ParkingLot\ParkingLot.Core\bin\Debug\netcoreapp2.2\ParkingLot.Core.pdb
+E:\Temp\ParkingLot\ParkingLot.Core\obj\Debug\netcoreapp2.2\ParkingLot.Core.csprojAssemblyReference.cache
+E:\Temp\ParkingLot\ParkingLot.Core\obj\Debug\netcoreapp2.2\ParkingLot.Core.csproj.CoreCompileInputs.cache
+E:\Temp\ParkingLot\ParkingLot.Core\obj\Debug\netcoreapp2.2\ParkingLot.Core.AssemblyInfoInputs.cache
+E:\Temp\ParkingLot\ParkingLot.Core\obj\Debug\netcoreapp2.2\ParkingLot.Core.AssemblyInfo.cs
+E:\Temp\ParkingLot\ParkingLot.Core\obj\Debug\netcoreapp2.2\ParkingLot.Core.dll
+E:\Temp\ParkingLot\ParkingLot.Core\obj\Debug\netcoreapp2.2\ParkingLot.Core.pdb
