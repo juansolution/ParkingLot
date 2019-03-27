@@ -36,7 +36,7 @@ namespace ParkingLot.Api
     c.SwaggerDoc("v1", new Info { Title = "Api ParkingLot", Version = "v1" });
 });
 
-            services.AddScoped<IUsuarios, UsuariosRepository>();
+            services.AddScoped<IUser, userRepository>();
 
            
         }

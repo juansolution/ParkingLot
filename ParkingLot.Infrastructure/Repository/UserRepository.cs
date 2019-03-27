@@ -6,20 +6,27 @@ using ParkingLot.Core.Interface;
 
 namespace ParkingLot.Infrastructure.Repository
 {
-    public class UsuariosRepository : IUsuarios
+    public class userRepository : IUser
     {
 
-        public UsuariosRepository()
+        public userRepository()
         {
 
         }
 
-        public void SaveUsuario(string usuario) {
+        public void SaveUser(string usuario) {
 
 
         }
 
-        public string GetUsuario(string usuario) {
+        public string GetUser(string usuario) {
+
+            return "Juan Piedrahita";
+        }
+
+
+        public string GeleteUser(string usuario)
+        {
 
             return "Juan Piedrahita";
         }

@@ -10,17 +10,17 @@ namespace ParkingLot.Core.Domain
         {
 
         }
-        public string nombre { get; set; }
+        public string Name { get; set; }
 
-        public string direccion { get; set; }
+        public string Adress { get; set; }
 
-        public int ciudad { get; set; }
+        public int City { get; set; }
 
-        public int departamento { get; set; }
+        public int Department { get; set; }
 
-        public float longitud { get; set; }
+        public float Longitude { get; set; }
 
-        public int latitud { get; set; }
+        public int Latitude { get; set; }
 
     }
 }

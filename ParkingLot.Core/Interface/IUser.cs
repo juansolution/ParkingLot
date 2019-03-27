@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ParkingLot.Core.Interface
 {
-    public interface IUsuarios
+    public interface IUser
     {
 
-        string GetUsuario(string usuario);
+        string GetUser(string user);
 
-        void SaveUsuario(string usuario);
+        void SaveUser(string user);
         
     }
 }

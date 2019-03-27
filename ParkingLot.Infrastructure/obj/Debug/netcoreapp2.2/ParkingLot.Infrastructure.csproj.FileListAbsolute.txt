@@ -10,3 +10,5 @@ E:\Temp\ParkingLot\ParkingLot.Infrastructure\obj\Debug\netcoreapp2.2\ParkingLot.
 E:\Temp\ParkingLot\ParkingLot.Infrastructure\obj\Debug\netcoreapp2.2\ParkingLot.Infrastructure.csproj.CopyComplete
 E:\Temp\ParkingLot\ParkingLot.Infrastructure\obj\Debug\netcoreapp2.2\ParkingLot.Infrastructure.dll
 E:\Temp\ParkingLot\ParkingLot.Infrastructure\obj\Debug\netcoreapp2.2\ParkingLot.Infrastructure.pdb
+E:\Temp\ParkingLot\ParkingLot.Infrastructure\bin\Debug\netcoreapp2.2\ParkingLot.Infrastructure.runtimeconfig.json
+E:\Temp\ParkingLot\ParkingLot.Infrastructure\bin\Debug\netcoreapp2.2\ParkingLot.Infrastructure.runtimeconfig.dev.json

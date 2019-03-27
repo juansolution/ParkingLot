@@ -11,11 +11,11 @@ namespace ParkingLot.Api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        public IUsuarios iUsuarios { get; private set; }
+        public IUser iUser { get; private set; }
 
-        public ValuesController(IUsuarios iUsuarios )
+        public ValuesController(IUser iUser )
         {
-            this.iUsuarios = iUsuarios;
+            this.iUser = iUser;
         }
 
         // GET api/values
@@ -39,7 +39,7 @@ namespace ParkingLot.Api.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return iUsuarios.GetUsuario("Juan");
+            return iUser.GetUser("Juan");
         }
 
 
