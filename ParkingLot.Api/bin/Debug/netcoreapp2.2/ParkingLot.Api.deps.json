@@ -26,6 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
+          "Microsoft.EntityFrameworkCore": "2.2.3",
           "Microsoft.NETCore.App": "2.2.0",
           "ParkingLot.Core": "1.0.0",
           "ParkingLot.Infrastructure": "1.0.0",
